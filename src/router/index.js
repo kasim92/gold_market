@@ -42,10 +42,7 @@ const routes = [
     name: 'login',
     component: Login
   },
-
-            { path: "*", component: HomeStore }
-
-  },
+   { path: "*", component: HomeStore }
 ]
 
 const router = new VueRouter({
