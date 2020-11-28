@@ -42,11 +42,9 @@ const routes = [
     name: 'login',
     component: Login
   },
-  {
-    path: "/*", component: HomeStore ,
-    meta: {
-      requiresAuth: true
-    }
+
+            { path: "*", component: HomeStore }
+
   },
 ]
 
